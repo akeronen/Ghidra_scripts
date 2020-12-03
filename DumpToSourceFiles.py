@@ -615,7 +615,7 @@ functionList = '''0xb80481c0 custom_wget_1_fn custom.c
 0xb81225b0 generic_custom_bput_1 generic_custom.c
 0xb81228e0 direct_access_reset direct_access.c
 0xb8122dec map_x86_mem direct_access.c
-0xb8122e00 init_native_mem_fn direct_access.c
+0xb8122e00 init_native_mem_fn memory.c
 0xb8123140 direct_access_install direct_access.c
 0xb8123594 set_hardware_clock direct_access.c
 0xb81235a0 extended_bget_fn direct_access.c
@@ -1016,6 +1016,7 @@ functionList = '''0xb80481c0 custom_wget_1_fn custom.c
 0xb82023e0 cpuid_space compemu_raw_x86.c
 0xb811e99c main_mystery main.c
 '''
+# main_mystery added manually
 
 opsFunctionList = '''0xb8050c70 op_d0_0_ff
 0xb8050d90 op_e8_0_ff
