@@ -5755,7 +5755,7 @@ for line in opsFunctionList.splitlines():
     # Get a function at a certain address
     srcFunc = fm.getFunctionAt(srcAddress)
     print "src function at address:" + srcFunc.getName()
-    f = open("C:\\TEMP\\dumps\\all_ops.c", "a")
+    f = open("C:\\TEMP\\dumps\\compemu.c", "a")
 
     try:
         decompileResults = decompInterface.decompileFunction(srcFunc, 30, monitor)
